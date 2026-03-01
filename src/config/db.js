@@ -11,5 +11,5 @@ export async function connectedDb() {
         process.exit(-1);
         
     }
-    
 }
+export default connectedDb
