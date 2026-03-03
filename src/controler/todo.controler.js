@@ -27,4 +27,3 @@ export async function deleteTodo(req, res) {
   await Todo.findByIdAndDelete(id);
   res.status(200).send({ message: "Todo Deleted Successfuly!" });
 }
-const newUser = await User.create({ fullName, email, password });
